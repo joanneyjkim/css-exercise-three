@@ -4,6 +4,20 @@ body {
   font-size: 10px;
 }
 
+h1 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 100%;
+  font-weight: lighter;
+}
+
+nav {
+  box-sizing: border-box;
+}
+
 .container {
   margin: 0 auto;
   width: 420px;
@@ -11,10 +25,6 @@ body {
 
 .restaurant-list {
   padding-top: 50px;
-}
-
-
-* {
   box-sizing: border-box;
   display: block;
 }
@@ -26,18 +36,16 @@ body {
   float: left;
   padding: 1%;
   width: 80%;
-  text-decoration: none;
 }
 
-.location:hover { color: #555555}
+.location:hover { background-color: #777777}
 
 .arrow {
   box-sizing: border-box;
   float: right;
-
+  padding-top: 7%;
 }
 
-nav {
-  box-sizing: border-box;
-  
+.content {
+  display:inline-block;
 }
