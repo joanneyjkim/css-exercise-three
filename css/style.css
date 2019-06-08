@@ -9,13 +9,35 @@ body {
   width: 420px;
 }
 
-nav {
-  margin: 0 auto;
-  padding: 10px 0 15px 15px;
-  position: fixed;
-  width: 420px;
-}
-
 .restaurant-list {
   padding-top: 50px;
+}
+
+
+* {
+  box-sizing: border-box;
+  display: block;
+}
+
+.location {
+  box-sizing: border-box;
+  border: .02px solid #000000;
+  background-color: #cecece;
+  float: left;
+  padding: 1%;
+  width: 80%;
+  text-decoration: none;
+}
+
+.location:hover { color: #555555}
+
+.arrow {
+  box-sizing: border-box;
+  float: right;
+
+}
+
+nav {
+  box-sizing: border-box;
+  
 }
